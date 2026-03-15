@@ -34,6 +34,7 @@ Fitxers principals:
 
 - `index.html`
 - `style.css`
+- `docs/`
 - `img/`
 - `README.md`
 
