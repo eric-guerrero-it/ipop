@@ -26,7 +26,7 @@ body {
   line-height: 1.7;
 }
 
-/* Header i hero */
+/* Hero */
 
 .hero {
   background: linear-gradient(135deg, var(--primary), var(--secondary));
@@ -35,7 +35,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Navbar */
+/* Barra de navegació */
 
 .navbar {
   max-width: 1100px;
@@ -74,7 +74,7 @@ body {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* Hero content */
+/* Capçalera */
 
 .hero-content {
   max-width: 1100px;
