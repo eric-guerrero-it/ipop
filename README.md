@@ -26,13 +26,16 @@ Aquest projecte està desenvolupat com un **site estàtic** utilitzant:
 - CSS
 - GitHub Pages per a la publicació del portfoli web
 
-## Estructura del repositori
+**Estructura del repositori**
 
-ipop/
-├── index.html
-├── style.css
-├── img/
-└── README.md
+Carpeta principal: `ipop`
+
+Fitxers principals:
+
+- `index.html`
+- `style.css`
+- `img/`
+- `README.md`
 
 ## Publicació del projecte
 
