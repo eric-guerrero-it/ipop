@@ -1,14 +1,14 @@
 # IPOP - Informe personal d’orientació professional
 
-Aquest repositori conté el meu **IPOP (Informe Personal d’Orientació Professional)** desenvolupat com a part del **CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX)**.
+Aquest repositori conté el meu **IPOP (Informe Personal d’Orientació Professional)**, desenvolupat com a part del **CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX)**.
 
-El projecte consisteix en la creació d’un **portfoli web professional** publicat mitjançant **GitHub Pages**, on es presenta el meu perfil professional, les meves competències, la meva projecció professional i el meu itinerari formatiu dins del sector de les tecnologies de la informació.
+El projecte consisteix en la creació d’un **portfoli web professional** publicat amb **GitHub Pages**, on es presenta el meu perfil acadèmic i professional, les meves competències, la meva projecció professional i el meu itinerari formatiu dins del sector de les tecnologies de la informació.
 
-Aquest projecte forma part del procés d’orientació professional del cicle formatiu i té com a objectiu definir el meu **itinerari professional i formatiu**.
+L’objectiu principal d’aquest IPOP és definir de manera clara el meu **perfil professional actual**, la meva **orientació dins del sector IT** i els passos que vull seguir per continuar creixent tant a nivell formatiu com laboral.
 
 ## Contingut del portfoli
 
-El portfoli inclou els següents apartats:
+El portfoli inclou els apartats següents:
 
 - Inici
 - Currículum per competències
@@ -19,36 +19,43 @@ El portfoli inclou els següents apartats:
 - Pla de promoció personal
 - Contacte
 
+## Enfocament professional
+
+El meu perfil està orientat principalment a:
+
+- Administració de sistemes
+- Xarxes i infraestructura IT
+- Suport tècnic i resolució d’incidències
+- Entorns de monitorització, virtualització i documentació tècnica
+
+A mig termini, també vull ampliar aquesta base amb el **Curs d’Especialització en Intel·ligència Artificial i Big Data**, per evolucionar cap a un perfil encara més complet i actualitzat.
+
 ## Tecnologies utilitzades
 
-Aquest projecte està desenvolupat com un **site estàtic** utilitzant:
+Aquest projecte està desenvolupat com un **site estàtic** amb:
 
 - HTML
 - CSS
-- GitHub Pages per a la publicació del portfoli web
+- GitHub Pages
 
 ## Estructura del repositori
 
-Carpeta principal: `ipop`
+```text
+ipop/
+├── docs/
+├── img/
+├── index.html
+├── style.css
+└── README.md
+Publicació del projecte
 
-Fitxers principals:
+El portfoli web es publica mitjançant GitHub Pages.
 
-- `index.html`
-- `style.css`
-- `docs/`
-- `img/`
-- `README.md`
+URL del projecte:
 
-## Publicació del projecte
+https://eric-guerrero-it.github.io/ipop/
 
-El portfoli web es publica mitjançant **GitHub Pages**.
+Autor
 
-La web es pot consultar a:
-
-`https://eric-guerrero-it.github.io/ipop`
-
-## Autor
-
-**Eric Guerrero**
-
-Estudiant del **CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIR)**.
+Eric Guerrero
+Estudiant del CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX).
