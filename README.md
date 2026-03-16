@@ -40,22 +40,21 @@ Aquest projecte està desenvolupat com un **site estàtic** amb:
 
 ## Estructura del repositori
 
-```text
-ipop/
-├── docs/
-├── img/
-├── index.html
-├── style.css
-└── README.md
-Publicació del projecte
+- `docs/`
+- `img/`
+- `index.html`
+- `style.css`
+- `README.md`
 
-El portfoli web es publica mitjançant GitHub Pages.
+## Publicació del projecte
+
+El portfoli web es publica mitjançant **GitHub Pages**.
 
 URL del projecte:
 
-https://eric-guerrero-it.github.io/ipop/
+`https://eric-guerrero-it.github.io/ipop/`
 
-Autor
+## Autor
 
-Eric Guerrero
-Estudiant del CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX).
+**Eric Guerrero**  
+Estudiant del **CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX)**.
