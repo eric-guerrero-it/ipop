@@ -4,264 +4,396 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IPOP - Eric Guerrero</title>
+  <meta
+    name="description"
+    content="IPOP d'Eric Guerrero, estudiant d'ASIX. Currículum per competències, projecció professional, especialització, itinerari formatiu, pla de promoció personal i contacte professional dins del sector IT."
+  >
+  <meta name="theme-color" content="#0f1c2e">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header class="hero">
+  <!-- Capçalera principal -->
+  <header class="capcalera">
+    <nav class="barra" aria-label="Navegació principal">
+      <a href="#inici" class="logo">IPOP</a>
 
-  <nav class="navbar">
-    <div class="logo">IPOP</div>
+      <ul class="enllacos-nav">
+        <li><a href="#inici">Inici</a></li>
+        <li><a href="#curriculum">Currículum</a></li>
+        <li><a href="#projeccio">Projecció</a></li>
+        <li><a href="#especialitzacio">Especialització</a></li>
+        <li><a href="#empreses">Empreses</a></li>
+        <li><a href="#itinerari">Itinerari</a></li>
+        <li><a href="#promocio">Promoció</a></li>
+        <li><a href="#contacte">Contacte</a></li>
+      </ul>
+    </nav>
 
-    <ul class="nav-links">
-      <li><a href="#inici">Inici</a></li>
-      <li><a href="#curriculum">Currículum</a></li>
-      <li><a href="#projeccio">Projecció</a></li>
-      <li><a href="#especialitzacio">Especialització</a></li>
-      <li><a href="#empreses">Empreses</a></li>
-      <li><a href="#itinerari">Itinerari</a></li>
-      <li><a href="#promocio">Promoció</a></li>
-      <li><a href="#contacte">Contacte</a></li>
-    </ul>
-  </nav>
+    <div class="presentacio">
+      <p class="sobrelinia">Eric Guerrero · Estudiant d’ASIX</p>
 
-  <div class="hero-content">
-    <h1>Informe personal d’orientació professional</h1>
-    <p>Eric Guerrero · CFGS d’Administració de Sistemes Informàtics en Xarxa (ASIX)</p>
-  </div>
+      <h1>Informe personal d’orientació professional</h1>
 
-</header>
+      <p class="text-capcalera">
+        Portfoli web professional orientat a presentar el meu perfil, les meves
+        competències i la meva projecció dins del sector de les tecnologies de la informació.
+      </p>
 
-<main class="container">
+      <div class="etiquetes">
+        <span>Sistemes</span>
+        <span>Xarxes</span>
+        <span>Infraestructura IT</span>
+        <span>Monitorització</span>
+        <span>IA i Big Data</span>
+      </div>
 
-  <section id="inici" class="card">
-    <div class="perfil-container">
-      <img src="img/perfil.jpeg" alt="Foto de perfil d'Eric Guerrero" class="perfil-img">
-
-      <div class="perfil-text">
-        <h2>Inici</h2>
-
-        <p>
-          Aquest portfoli forma part del meu <strong>Informe Personal d’Orientació Professional (IPOP)</strong>,
-          desenvolupat dins del cicle formatiu de grau superior d’<strong>Administració de Sistemes Informàtics en Xarxa (ASIX)</strong>.
-        </p>
-
-        <p>
-          L’objectiu d’aquest espai web és presentar el meu perfil professional,
-          les competències adquirides durant la meva formació i la meva orientació
-          professional dins del sector de les tecnologies de la informació.
-        </p>
-
-        <p>
-          En aquest portfoli es recullen el currículum per competències,
-          la projecció professional, l’àmbit d’especialització, les empreses objectiu,
-          l’itinerari formatiu, el pla de promoció personal i la informació
-          de contacte professional.
-        </p>
+      <div class="accions-capcalera">
+        <a href="#curriculum" class="boto boto-principal">Veure perfil</a>
+        <a href="#contacte" class="boto boto-secundari">Contacte</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section id="curriculum" class="card">
-    <h2>Currículum per competències</h2>
+  <main class="contingut">
 
-    <p>
-      En aquest apartat es presenten les principals competències que he desenvolupat
-      durant la meva formació en el Cicle Formatiu de Grau Superior d’Administració
-      de Sistemes Informàtics en Xarxa (ASIX). Aquestes competències reflecteixen
-      els coneixements tècnics i les habilitats personals adquirides en l’àmbit
-      dels sistemes, les xarxes i la infraestructura tecnològica.
-    </p>
+    <section id="inici" class="targeta">
+      <div class="perfil">
+        <img
+          src="img/perfil.jpeg"
+          alt="Foto de perfil d'Eric Guerrero"
+          class="imatge-perfil"
+          loading="lazy"
+        >
 
-    <h3>Competències tècniques</h3>
-    <ul>
-      <li>Instal·lació i administració de sistemes operatius Windows i Linux.</li>
-      <li>Configuració i administració de serveis de xarxa com DNS, DHCP i FTP.</li>
-      <li>Configuració de xarxes locals i connexió entre màquines físiques i virtuals.</li>
-      <li>Virtualització de sistemes i entorns de laboratori.</li>
-      <li>Suport tècnic, manteniment d’equips i resolució d’incidències.</li>
-      <li>Gestió bàsica de dominis i serveis en entorns Windows Server i Ubuntu.</li>
-      <li>Desplegament i configuració bàsica de serveis web i aplicacions.</li>
-    </ul>
+        <div class="text-perfil">
+          <h2>Inici</h2>
 
-    <h3>Competències personals</h3>
-    <ul>
-      <li>Responsabilitat i compromís amb el treball.</li>
-      <li>Organització i gestió eficient de tasques.</li>
-      <li>Capacitat d’aprenentatge continu i adaptació a noves tecnologies.</li>
-      <li>Treball en equip en entorns tècnics.</li>
-      <li>Atenció al detall i actitud proactiva.</li>
-    </ul>
+          <p>
+            Aquest portfoli forma part del meu <strong>Informe Personal d’Orientació Professional (IPOP)</strong>,
+            desenvolupat dins del cicle formatiu de grau superior d’<strong>Administració de Sistemes Informàtics en Xarxa (ASIX)</strong>.
+          </p>
 
-    <h3>Currículum complet</h3>
-    <p>Pots consultar el meu currículum complet en els següents formats:</p>
+          <p>
+            L’objectiu d’aquest espai web és presentar de manera clara el meu perfil professional,
+            les competències que he anat desenvolupant i l’orientació que vull donar a la meva trajectòria
+            dins del sector IT.
+          </p>
 
-    <a href="docs/ericguerreromatas_CV.pdf" class="cv-button" target="_blank">
-      Descarregar CV Europass
-    </a>
+          <p>
+            El meu interès principal se centra en l’<strong>administració de sistemes</strong>,
+            les <strong>xarxes</strong> i la <strong>infraestructura tecnològica</strong>, amb voluntat
+            de continuar evolucionant cap a àmbits com la <strong>automatització</strong>,
+            la <strong>monitorització</strong> i, a mig termini, la <strong>Intel·ligència Artificial i el Big Data</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
 
-    <br><br>
+    <section id="curriculum" class="targeta">
+      <h2>Currículum per competències</h2>
 
-    <a href="docs/cv_canva_english.pdf" class="cv-button" target="_blank">
-      Descarregar CV visual
-    </a>
-  </section>
+      <p>
+        Durant la meva formació he desenvolupat una base tècnica sòlida en sistemes,
+        xarxes i entorns de laboratori, així com habilitats personals importants per treballar
+        en entorns professionals del sector tecnològic.
+      </p>
 
-  <section id="projeccio" class="card">
-    <h2>Projecció professional</h2>
+      <div class="graella-dues">
+        <article class="subbloc">
+          <h3>Competències tècniques</h3>
+          <ul>
+            <li>Instal·lació i administració bàsica de sistemes operatius Windows i Linux.</li>
+            <li>Configuració de serveis de xarxa com DNS, DHCP, FTP i serveis web.</li>
+            <li>Configuració de xarxes locals i connexió entre equips físics i virtuals.</li>
+            <li>Virtualització de sistemes i preparació d’entorns de proves.</li>
+            <li>Manteniment d’equips, resolució d’incidències i suport tècnic.</li>
+            <li>Desplegament bàsic de serveis i aplicacions en laboratoris tècnics.</li>
+            <li>Documentació tècnica i seguiment de projectes mitjançant GitHub.</li>
+          </ul>
+        </article>
 
-    <p>
-      La meva projecció professional està orientada a desenvolupar la meva carrera
-      dins del sector de les tecnologies de la informació, especialment en l’àmbit
-      de l’administració de sistemes, les xarxes i la infraestructura informàtica.
-    </p>
+        <article class="subbloc">
+          <h3>Competències personals</h3>
+          <ul>
+            <li>Responsabilitat i compromís amb la feina.</li>
+            <li>Organització i constància en el treball tècnic.</li>
+            <li>Capacitat d’aprenentatge continu.</li>
+            <li>Adaptació a noves eines i tecnologies.</li>
+            <li>Treball en equip i actitud professional.</li>
+            <li>Atenció al detall i orientació a la millora.</li>
+          </ul>
+        </article>
+      </div>
 
-    <p>
-      L’objectiu és consolidar un perfil tècnic sòlid basat en els coneixements
-      adquirits durant el cicle ASIX i continuar desenvolupant competències
-      relacionades amb la gestió de sistemes i serveis tecnològics.
-    </p>
+      <h3>Projectes i evidències</h3>
+      <ul>
+        <li>Administració de sistemes Windows i Linux en entorns de laboratori.</li>
+        <li>Configuració de serveis de xarxa i pràctiques de connectivitat.</li>
+        <li>Virtualització de màquines i simulació d’entorns tècnics.</li>
+        <li>Projectes de monitorització, desplegament i documentació tècnica.</li>
+        <li>Ús de GitHub com a suport per a projectes i portfoli professional.</li>
+      </ul>
 
-    <p>
-      Per continuar evolucionant professionalment, considero important complementar
-      la formació actual amb formació especialitzada com el curs d’Intel·ligència
-      Artificial i Big Data.
-    </p>
-  </section>
+      <div class="botons-cv">
+        <a
+          href="docs/ericguerreromatas_CV.pdf"
+          class="boto-fitxer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Descarregar CV Europass
+        </a>
 
-  <section id="especialitzacio" class="card">
-    <h2>Àmbit d’especialització professional</h2>
+        <a
+          href="docs/cv_canva_english.pdf"
+          class="boto-fitxer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Descarregar CV visual
+        </a>
+      </div>
+    </section>
 
-    <p>
-      El meu àmbit d’especialització professional se centra en l’administració
-      de sistemes i la gestió d’infraestructures tecnològiques dins d’entorns informàtics.
-    </p>
+    <section id="projeccio" class="targeta">
+      <h2>Projecció professional</h2>
 
-    <p>
-      Aquest àmbit inclou tasques com la instal·lació i configuració de sistemes operatius,
-      la gestió de serveis de xarxa, el manteniment de sistemes informàtics
-      i la resolució d’incidències tècniques relacionades amb la infraestructura IT.
-    </p>
+      <p>
+        La meva projecció professional està orientada a iniciar la meva carrera dins del sector IT
+        en llocs relacionats amb el <strong>suport tècnic</strong>, l’<strong>administració de sistemes júnior</strong>,
+        la <strong>gestió de xarxes</strong> o la <strong>infraestructura tecnològica</strong>.
+      </p>
 
-    <p>
-      És un perfil tècnic orientat a garantir el correcte funcionament dels sistemes
-      i serveis tecnològics dins d’una organització.
-    </p>
-  </section>
+      <p>
+        A curt termini, el meu objectiu és consolidar una base tècnica sòlida, continuar guanyant experiència
+        pràctica i incorporar-me a un entorn professional on pugui seguir aprenent i aportant valor.
+      </p>
 
-  <section id="empreses" class="card">
-    <h2>Empreses objectiu</h2>
+      <p>
+        A mig termini, vull complementar la meva formació amb el
+        <strong>Curs d’Especialització en Intel·ligència Artificial i Big Data</strong>,
+        combinant la base d’ASIX amb noves competències relacionades amb dades,
+        automatització i entorns tecnològics avançats.
+      </p>
 
-    <p>
-      El meu perfil professional pot encaixar en diferents tipus d’organitzacions
-      dins del sector de les tecnologies de la informació, especialment en empreses
-      que necessitin professionals per a la gestió de sistemes, xarxes
-      i infraestructures tecnològiques.
-    </p>
+      <div class="graella-resum">
+        <article class="mini-targeta">
+          <h3>Curt termini</h3>
+          <p>Finalitzar ASIX, reforçar experiència pràctica i accedir a una primera oportunitat laboral en l’àmbit IT.</p>
+        </article>
 
-    <p>
-      Aquest perfil és necessari en empreses de serveis informàtics,
-      consultories tecnològiques o departaments IT d’empreses de diversos sectors.
-    </p>
+        <article class="mini-targeta">
+          <h3>Mig termini</h3>
+          <p>Ampliar el perfil amb especialització en IA i Big Data, certificacions i nous projectes tècnics.</p>
+        </article>
 
-    <p>
-      M’interessen especialment entorns professionals que permetin continuar aprenent,
-      adquirir experiència pràctica i créixer tècnicament dins del sector IT.
-    </p>
-  </section>
+        <article class="mini-targeta">
+          <h3>Llarg termini</h3>
+          <p>Consolidar un perfil tècnic amb recorregut en sistemes, infraestructura, cloud, automatització i dades.</p>
+        </article>
+      </div>
+    </section>
 
-  <section id="itinerari" class="card">
-    <h2>Itinerari formatiu</h2>
+    <section id="especialitzacio" class="targeta">
+      <h2>Àmbit d’especialització professional</h2>
 
-    <p>
-      El meu itinerari formatiu parteix de la base adquirida en el Cicle Formatiu
-      de Grau Superior d’Administració de Sistemes Informàtics en Xarxa (ASIX),
-      que m’ha permès desenvolupar coneixements tècnics en administració de sistemes,
-      xarxes i infraestructures tecnològiques.
-    </p>
+      <p>
+        El meu àmbit d’especialització se situa en l’<strong>administració de sistemes i infraestructures IT</strong>,
+        amb projecció cap a àrees complementàries com la <strong>monitorització</strong>,
+        la <strong>automatització</strong> i, en el futur, l’aplicació de tecnologies relacionades amb
+        la <strong>IA i el Big Data</strong>.
+      </p>
 
-    <p>
-      Per continuar ampliant el meu perfil professional, considero interessant
-      complementar aquesta formació amb el Curs d’Especialització en
-      Intel·ligència Artificial i Big Data.
-    </p>
+      <div class="graella-dues">
+        <article class="subbloc">
+          <h3>Tasques principals</h3>
+          <ul>
+            <li>Instal·lar, configurar i mantenir sistemes operatius i serveis bàsics.</li>
+            <li>Donar suport tècnic i resoldre incidències en equips i xarxes.</li>
+            <li>Gestionar serveis i recursos en entorns locals o virtualitzats.</li>
+            <li>Fer seguiment del funcionament dels sistemes i documentar processos tècnics.</li>
+            <li>Participar en desplegaments, manteniment i millora d’infraestructures IT.</li>
+          </ul>
+        </article>
 
-    <p>
-      A més, a llarg termini també valoro la possibilitat de continuar la meva
-      formació amb estudis universitaris relacionats amb l’enginyeria informàtica,
-      incloent opcions en modalitat online, així com obtenir certificacions
-      i continuar desenvolupant projectes tècnics.
-    </p>
-  </section>
+        <article class="subbloc">
+          <h3>Competències associades</h3>
+          <ul>
+            <li>Administració bàsica de Windows i Linux.</li>
+            <li>Configuració de xarxes i serveis informàtics.</li>
+            <li>Resolució de problemes tècnics de forma metòdica.</li>
+            <li>Ús d’entorns virtuals i laboratoris de proves.</li>
+            <li>Capacitat d’aprenentatge, adaptació i evolució professional.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-  <section id="promocio" class="card">
-    <h2>Pla de promoció personal</h2>
+    <section id="empreses" class="targeta">
+      <h2>Empreses objectiu</h2>
 
-    <h3>Estratègies</h3>
-    <p>
-      El meu pla de promoció personal es basa en donar visibilitat al meu perfil
-      professional dins del sector de les tecnologies de la informació i difondre
-      el meu currículum i les meves competències tècniques.
-    </p>
+      <p>
+        El meu perfil pot encaixar en diferents tipus d’organitzacions que necessitin personal tècnic
+        per gestionar sistemes, xarxes i suport IT, especialment en entorns on es valori l’aprenentatge,
+        la capacitat d’adaptació i el creixement professional.
+      </p>
 
-    <p>
-      Entre les principals estratègies hi ha l’enviament de currículums a empreses
-      del sector IT, la utilització de plataformes professionals com LinkedIn
-      i portals de recerca de feina com InfoJobs, així com la presentació
-      de projectes tècnics a través de GitHub.
-    </p>
+      <div class="graella-dues">
+        <article class="subbloc">
+          <h3>Tipus d’empreses</h3>
+          <ul>
+            <li>Empreses de serveis informàtics i suport tècnic.</li>
+            <li>Consultories tecnològiques.</li>
+            <li>Proveïdors de serveis gestionats (MSP).</li>
+            <li>Departaments IT d’empreses mitjanes o grans.</li>
+            <li>Organitzacions en procés de digitalització o modernització tecnològica.</li>
+          </ul>
+        </article>
 
-    <h3>Pla d’actuació</h3>
-    <p>
-      Per aplicar aquestes estratègies, el meu pla d’actuació inclou preparar
-      i actualitzar el currículum professional, mantenir actualitzats els perfils
-      professionals online i enviar candidatures a empreses del sector tecnològic.
-    </p>
+        <article class="subbloc">
+          <h3>Entorns que busco</h3>
+          <ul>
+            <li>Equips on es pugui aprendre i evolucionar tècnicament.</li>
+            <li>Entorns amb combinació de sistemes, xarxes i suport real.</li>
+            <li>Empreses que treballin amb documentació, bones pràctiques i seguiment tècnic.</li>
+            <li>Projectes on pugui créixer cap a infraestructura, monitorització o automatització.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-    <p>
-      A més, continuaré desenvolupant projectes tècnics, millorant el meu portfoli
-      i ampliant coneixements per reforçar el meu perfil professional i facilitar
-      la meva incorporació al món laboral.
-    </p>
-  </section>
+    <section id="itinerari" class="targeta">
+      <h2>Itinerari formatiu</h2>
 
-  <section id="contacte" class="card">
-    <h2>Contacte</h2>
+      <p>
+        El meu itinerari parteix de la base tècnica adquirida en ASIX i continua amb una orientació clara
+        cap a la millora contínua, l’especialització i la construcció d’un perfil professional sòlid i actualitzat.
+      </p>
 
-    <p>
-      En aquesta secció es presenten les principals vies de contacte professional
-      i els enllaços als perfils relacionats amb el meu perfil dins del sector
-      de les tecnologies de la informació.
-    </p>
+      <div class="linia-temps">
+        <article class="pas">
+          <span class="pas-numero">1</span>
+          <h3>Finalitzar ASIX</h3>
+          <p>Consolidar els coneixements de sistemes, xarxes, serveis i entorns de laboratori.</p>
+        </article>
 
-    <p>
-      GitHub:
-      <a href="https://github.com/eric-guerrero-it" target="_blank">
-        github.com/eric-guerrero-it
-      </a>
-    </p>
+        <article class="pas">
+          <span class="pas-numero">2</span>
+          <h3>Especialització</h3>
+          <p>Cursar el Curs d’Especialització en Intel·ligència Artificial i Big Data.</p>
+        </article>
 
-    <p>
-      Portfoli web:
-      <a href="https://eric-guerrero-it.github.io/ipop" target="_blank">
-        eric-guerrero-it.github.io/ipop
-      </a>
-    </p>
+        <article class="pas">
+          <span class="pas-numero">3</span>
+          <h3>Formació complementària</h3>
+          <p>Continuar amb certificacions i aprenentatge en Linux, xarxes, cloud i eines professionals.</p>
+        </article>
 
-    <p>
-      Correu electrònic:
-      <a href="mailto:egm23f05@gmail.com">
-        egm23f05@gmail.com
-      </a>
-    </p>
+        <article class="pas">
+          <span class="pas-numero">4</span>
+          <h3>Creixement professional</h3>
+          <p>Desenvolupar experiència laboral, ampliar projectes a GitHub i seguir evolucionant tècnicament.</p>
+        </article>
+      </div>
 
-    <p>
-      Ubicació: Blanes (Girona), Catalunya
-    </p>
-  </section>
+      <p>
+        A llarg termini, també valoro continuar ampliant la meva formació amb estudis superiors o noves especialitzacions,
+        sempre alineades amb la meva evolució dins del sector IT.
+      </p>
+    </section>
 
-</main>
+    <section id="promocio" class="targeta">
+      <h2>Pla de promoció personal</h2>
+
+      <h3>Estratègies</h3>
+      <ul>
+        <li>Mantenir actualitzat el currículum en diferents formats.</li>
+        <li>Donar visibilitat als projectes i evidències tècniques mitjançant GitHub.</li>
+        <li>Millorar la presència professional en plataformes d’ocupació i xarxes professionals.</li>
+        <li>Identificar empreses objectiu i adaptar candidatures segons el tipus de lloc.</li>
+        <li>Continuar formant-me per reforçar el meu perfil i diferenciar-me com a candidat.</li>
+      </ul>
+
+      <h3>Pla d’actuació</h3>
+      <div class="pla-grid">
+        <article class="mini-targeta">
+          <h3>0 - 3 mesos</h3>
+          <ul>
+            <li>Revisar i actualitzar CV, GitHub i portfoli web.</li>
+            <li>Organitzar millor els projectes i la documentació tècnica.</li>
+            <li>Definir empreses i llocs objectiu.</li>
+          </ul>
+        </article>
+
+        <article class="mini-targeta">
+          <h3>3 - 6 mesos</h3>
+          <ul>
+            <li>Enviar candidatures ajustades al perfil.</li>
+            <li>Continuar millorant competències tècniques i anglès professional.</li>
+            <li>Ampliar projectes pràctics i evidències reals.</li>
+          </ul>
+        </article>
+
+        <article class="mini-targeta">
+          <h3>6 - 12 mesos</h3>
+          <ul>
+            <li>Iniciar o consolidar especialització en IA i Big Data.</li>
+            <li>Obtenir formació complementària o certificacions.</li>
+            <li>Fer créixer el perfil professional amb experiència i noves responsabilitats.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacte" class="targeta">
+      <h2>Contacte</h2>
+
+      <p>
+        Aquestes són les principals vies de contacte i els enllaços professionals relacionats amb el meu perfil.
+      </p>
+
+      <div class="contacte-graella">
+        <a
+          href="https://github.com/eric-guerrero-it"
+          class="contacte-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="contacte-titol">GitHub</span>
+          <span class="contacte-text">github.com/eric-guerrero-it</span>
+        </a>
+
+        <a
+          href="https://eric-guerrero-it.github.io/ipop/"
+          class="contacte-item"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="contacte-titol">Portfoli web</span>
+          <span class="contacte-text">eric-guerrero-it.github.io/ipop/</span>
+        </a>
+
+        <a
+          href="mailto:egm23f05@gmail.com"
+          class="contacte-item"
+        >
+          <span class="contacte-titol">Correu electrònic</span>
+          <span class="contacte-text">egm23f05@gmail.com</span>
+        </a>
+
+        <div class="contacte-item contacte-item-text">
+          <span class="contacte-titol">Ubicació</span>
+          <span class="contacte-text">Blanes (Girona), Catalunya</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="peu">
+    <p>IPOP d’Eric Guerrero · Portfoli professional desenvolupat amb HTML i CSS</p>
+  </footer>
 
 </body>
 </html>
